@@ -30,7 +30,7 @@
         </mj-section>
         <mj-section padding="0">
             <mj-column padding="0">
-                <mj-image src="../assets/salad/banner.png" alt="Salad Image" width="600px" padding="0"/>
+                <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/refs/heads/main/assets/salad/banner.png" alt="Salad Image" width="600px" padding="0"/>
             </mj-column>
         </mj-section>
         <mj-section padding="0">
@@ -58,12 +58,12 @@
                 </mj-button>
             </mj-column>
             <mj-column padding="0">
-                <mj-image src="../assets/salad/img01.png" alt="New Menu" width="285px" padding="0"/>
+                <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/refs/heads/main/assets/salad/img01.png" alt="New Menu" width="285px" padding="0"/>
             </mj-column>
         </mj-section>
         <mj-section padding="48px 0 49px">
             <mj-column padding="0">
-                <mj-image src="../assets/salad/img02.png" alt="Healthy Sunday" width="285px" padding="0"/>
+                <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/refs/heads/main/assets/salad/img02.png" alt="Healthy Sunday" width="285px" padding="0"/>
             </mj-column>
             <mj-column padding="51px 10px 0">
                 <mj-text align="left" color="#173F4E" font-size="24px" font-weight="500" line-height="36px">Healthy Sunday</mj-text>
