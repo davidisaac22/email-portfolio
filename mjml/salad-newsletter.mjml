@@ -1,0 +1,94 @@
+<mjml>
+    <mj-head>
+        <mj-title>Salad Newsletter</mj-title>
+        <mj-font name="Poppins" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" />
+        <mj-attributes>
+            <mj-text padding="0" font-family="Poppins, Arial, Helvetica, sans-serif" />
+            <mj-section background-color="#F5F5F5" />
+        </mj-attributes>
+        <mj-style>
+            .shadow-button a {
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body>
+        <mj-section padding="17px 0 12px">
+            <mj-column>
+                <mj-text align="center" color="#000000" font-weight="600" font-size="36px" line-height="54px">YOUR SALAD</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column background-color="#173F4E" padding="12px 0">
+                <mj-text align="center" color="#DDAA00" font-size="20px" line-height="30px">Sign up for a chance to win a $50 voucher</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column padding="30px">
+                <mj-text align="center" color="#173F4E" font-size="28px" font-weight="bold" line-height="42px">Refreshing Summer menu is here!</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column padding="0">
+                <mj-image src="../assets/salad/banner.png" alt="Salad Image" width="600px" padding="0"/>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column padding="33px 0 0">
+                <mj-text align="center" color="#173F4E" font-size="16px" line-height="24px">Check out our Spring menu with new weekly specials and fresh, <br>seasonal produce.</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column padding="32px 0 0">
+                <mj-button href="#" css-class="shadow-button" background-color="#DDAA00" color="#173F4E" font-size="20px" font-weight="600" padding="0" inner-padding="10px 24px" align="center" border-radius="6px">
+                    Get our Menu
+                </mj-button>
+            </mj-column>    
+        </mj-section>
+        <mj-section padding="33px 0 0">
+            <mj-column padding="51px 10px 0">
+                <mj-text align="left" color="#173F4E" font-size="24px" font-weight="500" line-height="36px">NEW MENU</mj-text>
+                <mj-text align="left" color="#173F4E" font-size="12px" line-height="18px" padding-top="22px">
+                    Lorem ipsum dolor sit amet, <br>
+                    consectetur adipiscing elit. <br>
+                    Sit amet pretium malesuada sagittis vel.
+                </mj-text>
+                <mj-button href="#" css-class="shadow-button" background-color="#173F4E" color="#85AAAA" font-size="20px" font-weight="600" padding="22px 0 0" inner-padding="10px 30px" align="left" border-radius="6px">
+                    Go To Order
+                </mj-button>
+            </mj-column>
+            <mj-column padding="0">
+                <mj-image src="../assets/salad/img01.png" alt="New Menu" width="285px" padding="0"/>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="48px 0 49px">
+            <mj-column padding="0">
+                <mj-image src="../assets/salad/img02.png" alt="Healthy Sunday" width="285px" padding="0"/>
+            </mj-column>
+            <mj-column padding="51px 10px 0">
+                <mj-text align="left" color="#173F4E" font-size="24px" font-weight="500" line-height="36px">Healthy Sunday</mj-text>
+                <mj-text align="left" color="#173F4E" font-size="12px" line-height="18px" padding-top="22px">
+                    Lorem ipsum dolor sit amet, <br>
+                    consectetur adipiscing elit. <br>
+                    Sit amet pretium malesuada sagittis vel.
+                </mj-text>
+                <mj-button href="#" css-class="shadow-button" background-color="#173F4E" color="#85AAAA" font-size="20px" font-weight="600" padding="22px 0 0" inner-padding="10px 30px" align="left" border-radius="6px">
+                    Book a Table
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="13px 0 23px" background-color="#7C5D3D">
+            <mj-column>
+                <mj-text font-size="15px" font-weight="500" line-height="23px" color="#DDAA00" align="center">
+                    For more details
+                </mj-text>
+                <mj-text font-size="12px" line-height="18px" color="#FFFFFF" align="center" padding-top="5px">
+                    Contact : +44 00 000 000
+                </mj-text>
+                <mj-text font-size="12px" line-height="18px" color="#FFFFFF" align="center">
+                    Email ID : test@test.com
+                </mj-text>
+            </mj-column>
+        </mj-section>   
+    </mj-body>
+</mjml>

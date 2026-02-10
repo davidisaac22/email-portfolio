@@ -1,0 +1,13 @@
+<mjml>
+    <mj-head>
+        <mj-title>Magazine Newsletter</mj-title>
+        <mj-preview>Celebrating dance floor fillers everywhere</mj-preview>
+    </mj-head>
+    <mj-body>
+        <mj-section>
+        <mj-column>
+            <mj-text>Hello MJML!</mj-text>
+        </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

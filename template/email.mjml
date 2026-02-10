@@ -1,0 +1,65 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <mj-text font-family="Arial, Helvetica, sans-serif" />
+        </mj-attributes>
+    </mj-head>
+    <mj-body>
+        <mj-section padding="20px 0 10px" background-url="https://placehold.co/600x400" background-size="cover" background-repeat="no-repeat">
+            <mj-column background-color="#000000" padding="20px 10px">
+                <mj-text align="center" color="#ffffff">This is an email template</mj-text>
+            </mj-column>
+            <mj-column>
+               <mj-text
+                    font-size="22px"
+                    font-weight="bold"
+                    padding="16px 24px 8px"
+                    >
+                    Weekly Update
+                    </mj-text>
+
+                    <mj-text
+                    font-size="16px"
+                    line-height="24px"
+                    padding="0 24px 16px"
+                    >
+                    Here’s what happened this week in our product.
+                </mj-text>  
+            </mj-column>
+        </mj-section>
+        
+        <mj-section padding="20px 0 0">
+            <mj-column padding="0">
+                <mj-image src="https://placehold.co/600x400" width="600px" alt="placeholder" padding="0" />
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="10px 0 0">
+            <mj-column padding="0">
+                <mj-text font-size="18px" align="center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, aspernatur! Saepe, vero neque facere mollitia unde minima veritatis placeat numquam natus, exercitationem quae consequuntur impedit quod maxime dolore voluptatum sint!</mj-text>
+                <mj-spacer height="10px" />
+                <mj-button href="/" background-color="#0FA958" color="#ffffff" font-size="16px" padding="20px 24px" align="center">
+                    click Here’s what happened this week in our product.
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-section background-color="#eeeeee">
+            <mj-column width="50%">
+                <mj-text align="center" font-weight="bold" font-size="20px">Product A</mj-text>
+                <mj-text align="center" font-size="14px" padding="0 10px 10px">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.
+                </mj-text>
+                <mj-image src="https://placehold.co/10x10" />
+            </mj-column>
+
+            <mj-column width="50%">
+                <mj-text align="center" font-weight="bold" font-size="20px">Product B</mj-text>
+                <mj-text align="center" font-size="14px" padding="0 10px 10px">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.
+                </mj-text>
+                <mj-image src="https://placehold.co/10x10" />
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

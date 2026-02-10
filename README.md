@@ -1,29 +1,56 @@
-# HTML Email Development Portfolio
+# Figma Newsletter Email Template
 
-This repository contains my HTML email templates, built using
-email-safe best practices for cross-client compatibility.
+## Overview
+This project is a responsive HTML email newsletter inspired by a Figma editorial-style campaign.  
+It was built using table-based HTML to ensure maximum compatibility across major email clients.
 
-## What this portfolio demonstrates
-- Table-based layouts
-- Inline CSS for email clients
-- Outlook (MSO) compatibility
-- Responsive email techniques
-- Clean, readable structure
+## Goals
+- Create a production-ready marketing email
+- Ensure compatibility across Gmail, Apple Mail, and Outlook
+- Follow email development best practices
+- Maintain a clean, readable layout similar to modern product newsletters
 
-## Folder Structure
+## Tech Stack
+- HTML (table-based layout)
+- Inline and embedded CSS
+- Google Fonts with system font fallbacks
 
-- `/promotional-email` – Promotional email templates (e.g., sales, campaigns)
-- `/newsletter` – Regular newsletter templates
-- `/transactional` – Transactional emails (e.g., receipts, confirmations)
-- `/assets` – Images, icons used in emails
-- `/screenshots` – Visual previews of emails
-- `README.md` – Portfolio explanation
+## Layout & Structure Decisions
+- All layouts are built using nested tables for consistent rendering in Outlook
+- Fixed-width inner tables (512px / 600px) are used instead of max-width on text blocks
+- Padding is applied on <td> elements rather than margins to avoid Outlook issues
+- No layout <div> elements are used
 
-## Tools & Techniques
-- HTML (email-safe)
-- Inline CSS
-- Tested mindset for Outlook, Gmail, Apple Mail
+## Responsiveness Strategy
+- Desktop layout uses a centered fixed-width container
+- Images include width attributes and responsive CSS (max-width: 100%)
+- A mobile media query adjusts container width for smaller screens
 
-## About Me
-Frontend Developer with experience in HTML, CSS, and JavaScript,
-now specializing in HTML email development.
+## Cross-Client Compatibility
+Special care was taken to support:
+- Outlook (Windows & Mobile)
+- Gmail (Web & Mobile)
+- Apple Mail
+
+Techniques used:
+- Table-based layout
+- Inline styles for critical elements
+- Pixel-based line-height for large headings
+- MSO-specific resets for Outlook spacing
+
+## Fonts & Images
+- Google Fonts are included for supported clients
+- System font fallbacks ensure consistent typography in Outlook
+- Images include width attributes and alt text where appropriate
+- Decorative images use empty alt attributes
+
+## Testing
+This email was tested manually in:
+- Gmail (Web & Mobile)
+- Apple Mail
+- Outlook Mobile
+
+Layout consistency, spacing, and image rendering were verified across clients.
+
+## Notes
+This template was built as part of an email development portfolio and follows best practices commonly used in production marketing campaigns.
