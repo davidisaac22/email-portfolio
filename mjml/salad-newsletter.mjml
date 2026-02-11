@@ -7,12 +7,37 @@
             <mj-section background-color="#F5F5F5" />
         </mj-attributes>
         <mj-style>
-            .shadow-button a {
-                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            .desktop-only {
+                max-height: none;
+                overflow: visible;
+                display: block;
+            }
+            .mobile-only {
+                max-height: 0;
+                overflow: hidden;
+                display: none;
+            }
+
+            @media only screen and (max-width:480px) {
+                .desktop-only {
+                    max-height: 0 !important;
+                    overflow: hidden !important;
+                    display: none !important;
+                }
+               .mobile-only {
+                    max-height: none !important;
+                    overflow: visible !important;
+                    display: block !important;
+                }
+                .text-center-sp div { text-align: center !important; }
+                .mobile-center {
+                    margin: 0 auto !important;
+                    float: none !important;
+                }
             }
         </mj-style>
     </mj-head>
-    <mj-body>
+    <mj-body width="600px">
         <mj-section padding="17px 0 12px">
             <mj-column>
                 <mj-text align="center" color="#000000" font-weight="600" font-size="36px" line-height="54px">YOUR SALAD</mj-text>
@@ -40,43 +65,56 @@
         </mj-section>
         <mj-section padding="0">
             <mj-column padding="32px 0 0">
-                <mj-button href="#" css-class="shadow-button" background-color="#DDAA00" color="#173F4E" font-size="20px" font-weight="600" padding="0" inner-padding="10px 24px" align="center" border-radius="6px">
+                <mj-button href="https://example.com/#" background-color="#DDAA00" color="#173F4E" font-size="20px" font-weight="600" padding="0" inner-padding="10px 24px" align="center" border-radius="6px">
                     Get our Menu
                 </mj-button>
             </mj-column>    
         </mj-section>
-        <mj-section padding="33px 0 0">
-            <mj-column padding="51px 10px 0">
-                <mj-text align="left" color="#173F4E" font-size="24px" font-weight="500" line-height="36px">NEW MENU</mj-text>
-                <mj-text align="left" color="#173F4E" font-size="12px" line-height="18px" padding-top="22px">
+
+        <mj-section padding="33px 0 0" direction="rtl">
+            <mj-column padding="0" width="50%" direction="ltr">
+                <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/refs/heads/main/assets/salad/img01.png" alt="New Menu" width="285px" padding="0"/>
+            </mj-column>
+            <mj-column padding="51px 10px 0" width="50%" direction="ltr">
+                <mj-text css-class="text-center-sp" align="left" color="#173F4E" font-size="24px" font-weight="500" line-height="36px">NEW MENU</mj-text>
+                <mj-text css-class="text-center-sp" align="left" color="#173F4E" font-size="12px" line-height="18px" padding-top="22px">
                     Lorem ipsum dolor sit amet, <br>
                     consectetur adipiscing elit. <br>
                     Sit amet pretium malesuada sagittis vel.
                 </mj-text>
-                <mj-button href="#" css-class="shadow-button" background-color="#173F4E" color="#85AAAA" font-size="20px" font-weight="600" padding="22px 0 0" inner-padding="10px 30px" align="left" border-radius="6px">
+                <mj-button href="https://example.com/#" css-class="desktop-only" background-color="#173F4E" color="#85AAAA" font-size="20px" font-weight="600" padding="22px 0 0" inner-padding="10px 30px" align="left" border-radius="6px">
+                    Go To Order
+                </mj-button>
+                <mj-button href="https://example.com/#" css-class="mobile-only" background-color="#173F4E" color="#85AAAA" font-size="20px" font-weight="600" padding="22px 0 0" inner-padding="10px 30px" align="center" border-radius="6px">
                     Go To Order
                 </mj-button>
             </mj-column>
-            <mj-column padding="0">
-                <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/refs/heads/main/assets/salad/img01.png" alt="New Menu" width="285px" padding="0"/>
-            </mj-column>
         </mj-section>
+
+
+
         <mj-section padding="48px 0 49px">
-            <mj-column padding="0">
-                <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/refs/heads/main/assets/salad/img02.png" alt="Healthy Sunday" width="285px" padding="0"/>
+            <mj-column width="50%" padding="0">
+                <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/refs/heads/main/assets/salad/img02.png" alt="Healthy Sunday" width="285px" padding="0" />
             </mj-column>
-            <mj-column padding="51px 10px 0">
-                <mj-text align="left" color="#173F4E" font-size="24px" font-weight="500" line-height="36px">Healthy Sunday</mj-text>
-                <mj-text align="left" color="#173F4E" font-size="12px" line-height="18px" padding-top="22px">
+
+            <mj-column width="50%" padding="51px 10px 0">
+                <mj-text css-class="text-center-sp"  align="left" color="#173F4E" font-size="24px" font-weight="500" line-height="36px">Healthy Sunday</mj-text>
+                <mj-text css-class="text-center-sp"  align="left" color="#173F4E" font-size="12px" line-height="18px" padding-top="22px">
                     Lorem ipsum dolor sit amet, <br>
                     consectetur adipiscing elit. <br>
                     Sit amet pretium malesuada sagittis vel.
                 </mj-text>
-                <mj-button href="#" css-class="shadow-button" background-color="#173F4E" color="#85AAAA" font-size="20px" font-weight="600" padding="22px 0 0" inner-padding="10px 30px" align="left" border-radius="6px">
+                <mj-button href="https://example.com/#" css-class="desktop-only" background-color="#173F4E" color="#85AAAA" font-size="20px" font-weight="600" padding="22px 0 0" inner-padding="10px 30px" align="left" border-radius="6px">
+                    Book a Table
+                </mj-button>
+                <mj-button href="https://example.com/#" css-class="mobile-only" background-color="#173F4E" color="#85AAAA" font-size="20px" font-weight="600" padding="22px 0 0" inner-padding="10px 30px" align="center" border-radius="6px">
                     Book a Table
                 </mj-button>
             </mj-column>
         </mj-section>
+
+
         <mj-section padding="13px 0 23px" background-color="#7C5D3D">
             <mj-column>
                 <mj-text font-size="15px" font-weight="500" line-height="23px" color="#DDAA00" align="center">
@@ -86,7 +124,7 @@
                     Contact : +44 00 000 000
                 </mj-text>
                 <mj-text font-size="12px" line-height="18px" color="#FFFFFF" align="center">
-                    Email ID : test@test.com
+                    Address : 1234 Placeholder Way, Suite 500
                 </mj-text>
             </mj-column>
         </mj-section>   

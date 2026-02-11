@@ -105,8 +105,39 @@
 
   </style>
   <style type="text/css">
-    .shadow-button a {
-      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    .desktop-only {
+      max-height: none;
+      overflow: visible;
+      display: block;
+    }
+
+    .mobile-only {
+      max-height: 0;
+      overflow: hidden;
+      display: none;
+    }
+
+    @media only screen and (max-width:480px) {
+      .desktop-only {
+        max-height: 0 !important;
+        overflow: hidden !important;
+        display: none !important;
+      }
+
+      .mobile-only {
+        max-height: none !important;
+        overflow: visible !important;
+        display: block !important;
+      }
+
+      .text-center-sp div {
+        text-align: center !important;
+      }
+
+      .mobile-center {
+        margin: 0 auto !important;
+        float: none !important;
+      }
     }
 
   </style>
@@ -289,12 +320,12 @@
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <tr>
-                              <td align="center" class="shadow-button" style="font-size:0px;padding:0;word-break:break-word;">
+                              <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
                                   <tbody>
                                     <tr>
                                       <td align="center" bgcolor="#DDAA00" role="presentation" style="border:none;border-radius:6px;cursor:auto;mso-padding-alt:10px 24px;background:#DDAA00;" valign="middle">
-                                        <a href="#" style="display:inline-block;background:#DDAA00;color:#173F4E;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:20px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 24px;mso-padding-alt:0px;border-radius:6px;" target="_blank"> Get our Menu </a>
+                                        <a href="https://example.com/#" style="display:inline-block;background:#DDAA00;color:#173F4E;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:20px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 24px;mso-padding-alt:0px;border-radius:6px;" target="_blank"> Get our Menu </a>
                                       </td>
                                     </tr>
                                   </tbody>
@@ -319,32 +350,22 @@
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#F5F5F5;background-color:#F5F5F5;width:100%;">
         <tbody>
           <tr>
-            <td style="direction:ltr;font-size:0px;padding:33px 0 0;text-align:center;">
+            <td style="direction:rtl;font-size:0px;padding:33px 0 0;text-align:center;">
               <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:300px;" ><![endif]-->
               <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
                     <tr>
-                      <td style="vertical-align:top;padding:51px 10px 0;">
+                      <td style="vertical-align:top;padding:0;">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <tr>
-                              <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
-                                <div style="font-family:Poppins, Arial, Helvetica, sans-serif;font-size:24px;font-weight:500;line-height:36px;text-align:left;color:#173F4E;">NEW MENU</div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td align="left" style="font-size:0px;padding:0;padding-top:22px;word-break:break-word;">
-                                <div style="font-family:Poppins, Arial, Helvetica, sans-serif;font-size:12px;line-height:18px;text-align:left;color:#173F4E;">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. <br> Sit amet pretium malesuada sagittis vel.</div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td align="left" class="shadow-button" style="font-size:0px;padding:22px 0 0;word-break:break-word;">
-                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                              <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                                   <tbody>
                                     <tr>
-                                      <td align="center" bgcolor="#173F4E" role="presentation" style="border:none;border-radius:6px;cursor:auto;mso-padding-alt:10px 30px;background:#173F4E;" valign="middle">
-                                        <a href="#" style="display:inline-block;background:#173F4E;color:#85AAAA;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:20px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 30px;mso-padding-alt:0px;border-radius:6px;" target="_blank"> Go To Order </a>
+                                      <td style="width:285px;">
+                                        <img alt="New Menu" src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/refs/heads/main/assets/salad/img01.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="285" height="auto" />
                                       </td>
                                     </tr>
                                   </tbody>
@@ -363,16 +384,39 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                   <tbody>
                     <tr>
-                      <td style="vertical-align:top;padding:0;">
+                      <td style="vertical-align:top;padding:51px 10px 0;">
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <tr>
-                              <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
-                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                              <td align="left" class="text-center-sp" style="font-size:0px;padding:0;word-break:break-word;">
+                                <div style="font-family:Poppins, Arial, Helvetica, sans-serif;font-size:24px;font-weight:500;line-height:36px;text-align:left;color:#173F4E;">NEW MENU</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" class="text-center-sp" style="font-size:0px;padding:0;padding-top:22px;word-break:break-word;">
+                                <div style="font-family:Poppins, Arial, Helvetica, sans-serif;font-size:12px;line-height:18px;text-align:left;color:#173F4E;">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. <br> Sit amet pretium malesuada sagittis vel.</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" class="desktop-only" style="font-size:0px;padding:22px 0 0;word-break:break-word;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
                                   <tbody>
                                     <tr>
-                                      <td style="width:285px;">
-                                        <img alt="New Menu" src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/refs/heads/main/assets/salad/img01.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="285" height="auto" />
+                                      <td align="center" bgcolor="#173F4E" role="presentation" style="border:none;border-radius:6px;cursor:auto;mso-padding-alt:10px 30px;background:#173F4E;" valign="middle">
+                                        <a href="https://example.com/#" style="display:inline-block;background:#173F4E;color:#85AAAA;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:20px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 30px;mso-padding-alt:0px;border-radius:6px;" target="_blank"> Go To Order </a>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="center" class="mobile-only" style="font-size:0px;padding:22px 0 0;word-break:break-word;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center" bgcolor="#173F4E" role="presentation" style="border:none;border-radius:6px;cursor:auto;mso-padding-alt:10px 30px;background:#173F4E;" valign="middle">
+                                        <a href="https://example.com/#" style="display:inline-block;background:#173F4E;color:#85AAAA;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:20px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 30px;mso-padding-alt:0px;border-radius:6px;" target="_blank"> Go To Order </a>
                                       </td>
                                     </tr>
                                   </tbody>
@@ -435,22 +479,35 @@
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <tr>
-                              <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
+                              <td align="left" class="text-center-sp" style="font-size:0px;padding:0;word-break:break-word;">
                                 <div style="font-family:Poppins, Arial, Helvetica, sans-serif;font-size:24px;font-weight:500;line-height:36px;text-align:left;color:#173F4E;">Healthy Sunday</div>
                               </td>
                             </tr>
                             <tr>
-                              <td align="left" style="font-size:0px;padding:0;padding-top:22px;word-break:break-word;">
+                              <td align="left" class="text-center-sp" style="font-size:0px;padding:0;padding-top:22px;word-break:break-word;">
                                 <div style="font-family:Poppins, Arial, Helvetica, sans-serif;font-size:12px;line-height:18px;text-align:left;color:#173F4E;">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. <br> Sit amet pretium malesuada sagittis vel.</div>
                               </td>
                             </tr>
                             <tr>
-                              <td align="left" class="shadow-button" style="font-size:0px;padding:22px 0 0;word-break:break-word;">
+                              <td align="left" class="desktop-only" style="font-size:0px;padding:22px 0 0;word-break:break-word;">
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
                                   <tbody>
                                     <tr>
                                       <td align="center" bgcolor="#173F4E" role="presentation" style="border:none;border-radius:6px;cursor:auto;mso-padding-alt:10px 30px;background:#173F4E;" valign="middle">
-                                        <a href="#" style="display:inline-block;background:#173F4E;color:#85AAAA;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:20px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 30px;mso-padding-alt:0px;border-radius:6px;" target="_blank"> Book a Table </a>
+                                        <a href="https://example.com/#" style="display:inline-block;background:#173F4E;color:#85AAAA;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:20px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 30px;mso-padding-alt:0px;border-radius:6px;" target="_blank"> Book a Table </a>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="center" class="mobile-only" style="font-size:0px;padding:22px 0 0;word-break:break-word;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center" bgcolor="#173F4E" role="presentation" style="border:none;border-radius:6px;cursor:auto;mso-padding-alt:10px 30px;background:#173F4E;" valign="middle">
+                                        <a href="https://example.com/#" style="display:inline-block;background:#173F4E;color:#85AAAA;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:20px;font-weight:600;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 30px;mso-padding-alt:0px;border-radius:6px;" target="_blank"> Book a Table </a>
                                       </td>
                                     </tr>
                                   </tbody>
@@ -492,7 +549,7 @@
                     </tr>
                     <tr>
                       <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
-                        <div style="font-family:Poppins, Arial, Helvetica, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#FFFFFF;">Email ID : test@test.com</div>
+                        <div style="font-family:Poppins, Arial, Helvetica, sans-serif;font-size:12px;line-height:18px;text-align:center;color:#FFFFFF;">Address : 1234 Placeholder Way, Suite 500</div>
                       </td>
                     </tr>
                   </tbody>
