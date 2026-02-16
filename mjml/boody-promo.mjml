@@ -1,0 +1,114 @@
+<mjml>
+    <mj-head>
+        <mj-title>Boody Promo</mj-title>
+        <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+        <mj-attributes>
+            <mj-all font-family="Inter, Arial, Helvetica, sans-serif" />
+        </mj-attributes>
+        <mj-style inline="inline">
+        @media only screen and (max-width:480px) {
+            .mobile-50 img {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+        }
+        }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="#F8F9F4">
+        <mj-section padding="24px">
+            <mj-column width="50%" padding="0">
+                <mj-image src="../assets/boody/logo.png" width="209px" padding="0" align="left"/>
+            </mj-column>
+            <mj-column width="50%">
+                <mj-text align="right" font-size="12px" font-weight="600" color="#4A4749" line-height="15px">Make Yourself <br>Comfortable</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0 23px" >
+            <mj-column width="100%" border-top="1px solid #494749">
+                <mj-text align="center" font-size="26px" font-weight="600" color="#494749" line-height="30px" padding="40px 0 8px">Cloud Level Comfort</mj-text>
+                <mj-text align="center" font-size="20px" color="#494749" line-height="24px" padding="0 0 24px">Unisex Sweat Sets</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="32px 24px">
+            <mj-column width="50%" padding="0">
+                <mj-image src="../assets/boody/img01.png" width="272px" padding="0" align="left"/>
+                <mj-image src="../assets/boody/img02.png" width="272px" padding="8px 0 0" align="left"/>
+            </mj-column>
+            <mj-column width="50%" padding="0">
+                <mj-image src="../assets/boody/img03.png" width="272px" padding="0" align="right"/>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="20px 0">
+            <mj-column>
+                <mj-button href="https://www.boody.com.au/collections/sweat-sets" background-color="#FFFFFF" color="#494749" font-size="14px" padding="0" inner-padding="16px 48px" border-radius="60px" border="1px solid #494749">SHOP SWEATS</mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="32px 0">
+            <mj-column>
+                <mj-text align="center" font-size="20px" color="#494749" line-height="30px" padding="0">Fall is here, and it's time to set yourself up<br> for warmth and style!</mj-text>
+                <mj-text align="center" font-size="20px" color="#494749" line-height="30px" padding="40px 0 0">Our unisex four-piece collection is perfect<br>for mixing and matching—your cozy new <br>weekend uniform.</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="16px">
+            <!-- First group -->
+            <mj-group>
+                <mj-column width="50%" mj-class="mobile-50">
+                    <mj-image src="../assets/boody/img04.png" alt="1" padding="0 16px 0 0" width="130px"/>
+                </mj-column>
+                <mj-column width="50%" mj-class="mobile-50">
+                    <mj-image src="../assets/boody/img05.png" alt="2" padding="0 16px 0 0" width="130px"/>
+                </mj-column>
+            </mj-group>
+
+            <!-- Second group -->
+            <mj-group>
+                <mj-column width="50%" mj-class="mobile-50">
+                    <mj-image src="../assets/boody/img06.png" alt="3" padding="0 16px 0 0" width="130px"/>
+                </mj-column>
+                <mj-column width="50%" mj-class="mobile-50">
+                    <mj-image src="../assets/boody/img07.png" alt="4" padding="0" width="130px"/>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-section padding="32px 16px 8px">
+            <mj-column>
+                <mj-text align="center" font-size="15px" color="#494749" line-height="22.5px" padding="0">All pieces available in:</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="16px">
+            <mj-group width="200px">
+                <mj-column width="33.33%">
+                    <mj-image src="../assets/boody/black.png" alt="black" padding="0" width="38px"/>
+                    <mj-text align="center" font-size="15px" color="#494749" line-height="22.5px" padding="5px 0 0">Black</mj-text>
+                </mj-column>
+                <mj-column width="33.33%">
+                    <mj-image src="../assets/boody/olive.png" alt="olive" padding="0" width="38px"/>
+                    <mj-text align="center" font-size="15px" color="#494749" line-height="22.5px" padding="5px 0 0">Olive</mj-text>
+                </mj-column>
+                <mj-column width="33.33%">
+                    <mj-image src="../assets/boody/sand.png" alt="sand" padding="0" width="38px"/>
+                    <mj-text align="center" font-size="15px" color="#494749" line-height="22.5px" padding="5px 0 0">Sand</mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-section padding="20px 15px 50px">
+            <mj-column>
+                <mj-button href="https://www.boody.com.au/collections/sweat-sets" background-color="#FFFFFF" color="#494749" font-size="14px" padding="0" inner-padding="16px 48px" border-radius="60px" border="1px solid #494749">SHOP SWEATS</mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#474238" padding="48px">
+            <mj-column width="100%">
+                <mj-text align="center" font-size="26px" color="#FFFFFF" line-height="38px" padding="0">Why you'll love these styles</mj-text>
+                <mj-text align="center" font-size="18px" color="#FFFFFF" line-height="27px" padding="24px 0 0"><span style="font-weight:600;">Versatile:</span> Perfect for lounging at home or a sunday morning coffee shop run</mj-text>
+                <mj-text align="center" font-size="18px" color="#FFFFFF" line-height="27px" padding="20px 0 0"><span style="font-weight:600;">Sustainable Comfort:</span> Crafted from a buttery-soft blend of organic cotton and bamboo viscose.</mj-text>
+                <mj-text align="center" font-size="18px" color="#FFFFFF" line-height="27px" padding="20px 0 0"><span style="font-weight:600;">Unisex Fit:</span> Designed to suit all body types.</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#dbcfbf" padding="60px 40px 0">
+            <mj-column>
+                <mj-text align="center" font-size="18px" color="#494749" line-height="24.84px" padding="0">These garments are designed to be oversized, <br>if you would like a slimmer fit, we recommend <br>you size down.</mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
