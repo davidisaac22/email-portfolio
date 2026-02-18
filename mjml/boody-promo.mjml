@@ -5,20 +5,11 @@
         <mj-attributes>
             <mj-all font-family="Inter, Arial, Helvetica, sans-serif" />
         </mj-attributes>
-        <mj-style inline="inline">
-        @media only screen and (max-width:480px) {
-            .mobile-50 img {
-          width: 100% !important;
-          max-width: 100% !important;
-          height: auto !important;
-        }
-        }
-        </mj-style>
     </mj-head>
     <mj-body background-color="#F8F9F4">
         <mj-section padding="24px">
             <mj-column width="50%" padding="0">
-                <mj-image src="../assets/boody/logo.png" width="209px" padding="0" align="left"/>
+                <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/logo.png" width="209px" padding="0" align="left"/>
             </mj-column>
             <mj-column width="50%">
                 <mj-text align="right" font-size="12px" font-weight="600" color="#4A4749" line-height="15px">Make Yourself <br>Comfortable</mj-text>
@@ -32,11 +23,10 @@
         </mj-section>
         <mj-section padding="32px 24px">
             <mj-column width="50%" padding="0 6px 0 0">
-                <mj-image src="../assets/boody/img01.png" width="272px" padding="0" align="center"/>
-                <mj-image src="../assets/boody/img02.png" width="272px" padding="8px 0 0" align="center"/>
+                <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/img01.png" width="272px" padding="0" align="center"/>
             </mj-column>
             <mj-column width="50%" padding="0">
-                <mj-image src="../assets/boody/img03.png" width="272px" padding="0" align="center"/>
+                <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/img03.png" width="272px" padding="0" align="center"/>
             </mj-column>
         </mj-section>
         <mj-section padding="20px 0">
@@ -53,21 +43,21 @@
         <mj-section padding="16px">
             <!-- First group -->
             <mj-group>
-                <mj-column width="50%" mj-class="mobile-50">
-                    <mj-image src="../assets/boody/img04.png" alt="1" padding="0 16px 0 0" width="130px"/>
+                <mj-column width="50%">
+                    <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/img04.png" alt="1" padding="0 16px 0 0" width="130px"/>
                 </mj-column>
-                <mj-column width="50%" mj-class="mobile-50">
-                    <mj-image src="../assets/boody/img05.png" alt="2" padding="0 16px 0 0" width="130px"/>
+                <mj-column width="50%">
+                    <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/img05.png" alt="2" padding="0 16px 0 0" width="130px"/>
                 </mj-column>
             </mj-group>
 
             <!-- Second group -->
             <mj-group>
-                <mj-column width="50%" mj-class="mobile-50">
-                    <mj-image src="../assets/boody/img06.png" alt="3" padding="0 16px 0 0" width="130px"/>
+                <mj-column width="50%">
+                    <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/img06.png" alt="3" padding="0 16px 0 0" width="130px"/>
                 </mj-column>
-                <mj-column width="50%" mj-class="mobile-50">
-                    <mj-image src="../assets/boody/img07.png" alt="4" padding="0" width="130px"/>
+                <mj-column width="50%">
+                    <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/img07.png" alt="4" padding="0" width="130px"/>
                 </mj-column>
             </mj-group>
         </mj-section>
@@ -79,15 +69,15 @@
         <mj-section padding="16px">
             <mj-group width="200px">
                 <mj-column width="33.33%">
-                    <mj-image src="../assets/boody/black.png" alt="black" padding="0" width="38px"/>
+                    <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/black.png" alt="black" padding="0" width="38px"/>
                     <mj-text align="center" font-size="15px" color="#494749" line-height="22.5px" padding="5px 0 0">Black</mj-text>
                 </mj-column>
                 <mj-column width="33.33%">
-                    <mj-image src="../assets/boody/olive.png" alt="olive" padding="0" width="38px"/>
+                    <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/olive.png" alt="olive" padding="0" width="38px"/>
                     <mj-text align="center" font-size="15px" color="#494749" line-height="22.5px" padding="5px 0 0">Olive</mj-text>
                 </mj-column>
                 <mj-column width="33.33%">
-                    <mj-image src="../assets/boody/sand.png" alt="sand" padding="0" width="38px"/>
+                    <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/sand.png" alt="sand" padding="0" width="38px"/>
                     <mj-text align="center" font-size="15px" color="#494749" line-height="22.5px" padding="5px 0 0">Sand</mj-text>
                 </mj-column>
             </mj-group>
@@ -105,7 +95,7 @@
                 <mj-text align="center" font-size="18px" color="#FFFFFF" line-height="27px" padding="20px 0 0"><span style="font-weight:600;">Unisex Fit:</span> Designed to suit all body types.</mj-text>
             </mj-column>
         </mj-section>
-        <mj-section background-url="https://github.com/davidisaac22/email-portfolio/blob/main/assets/boody/bg01.png?raw=true" background-size="cover" background-repeat="no-repeat" padding="60px 40px 360px 40px">
+        <mj-section background-url="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/bg01.png" background-size="cover" background-repeat="no-repeat" background-color="#e1d8c7" padding="60px 40px 360px 40px">
             <mj-column>
                 <mj-text align="center" font-size="18px" color="#494749" line-height="24.84px" padding="0">These garments are designed to be oversized, <br>if you would like a slimmer fit, we recommend <br>you size down.</mj-text>
             </mj-column>
@@ -115,16 +105,38 @@
                 <mj-divider border-color="#494749" border-width="1px" padding="0 24px"/>
             </mj-column>
         </mj-section>
-        <mj-section padding="0">
+        <mj-section padding="0" background-url="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/img08.png" background-size="50% 100%" background-repeat="no-repeat" background-position="left top" background-color="#454131">
+
+            <!-- LEFT side spacer (image area) -->
             <mj-column width="50%">
-                <mj-image src="../assets/boody/img08.png" width="300px" padding="0" align="center"/>
+                <mj-spacer height="1px" />
             </mj-column>
-            <mj-column width="50%" background-color="#454131" padding="24px">
-                <mj-text align="left" font-size="22px" font-weight="bold" color="#FFFFFF" line-height="27px" padding="24px 0 0">New for him <span style="font-weight:300;">|</span> Olive</mj-text>
-                <mj-text align="left" font-size="16px" color="#FFFFFF" line-height="24px" padding="16px 0 0">Meet Olive - the latest addition to our underwear collection, available in both boxers and briefs.</mj-text>
-                <mj-button href="https://www.boody.com.au/collections/underwear/products/olive-boxer-briefs" background-color="#FFFFFF" color="#494749" font-size="14px" padding="16px 0 14px" inner-padding="16px 48px" border-radius="60px" border="1px solid #494749" align="left" padding-top="24px">SHOP NOW</mj-button>
+
+            <!-- RIGHT side content -->
+            <mj-column width="50%" padding="24px">
+                <mj-text align="left" font-size="22px" font-weight="bold" color="#FFFFFF" line-height="27px" padding="0">
+                    New for him <span style="font-weight:300;">|</span> Olive
+                </mj-text>
+
+                <mj-text align="left" font-size="16px" color="#FFFFFF" line-height="24px" padding="24px 0 0">
+                    Meet Olive - the latest addition to our underwear collection,
+                    available in both boxers and briefs.
+                </mj-text>
+
+                <mj-button href="https://www.boody.com.au/collections/underwear/products/olive-boxer-briefs"
+                        background-color="#FFFFFF"
+                        color="#494749"
+                        font-size="14px"
+                        padding="16px 0 14px"
+                        inner-padding="16px 48px"
+                        border-radius="60px"
+                        border="1px solid #494749"
+                        align="left">
+                SHOP NOW
+                </mj-button>
             </mj-column>
         </mj-section>
+
         <mj-section padding="0">
             <mj-column padding="16px 0">
                 <mj-divider border-color="#494749" border-width="1px" padding="0 24px"/>
@@ -133,24 +145,24 @@
         <mj-section padding="16px">
             <!-- First group -->
             <mj-group>
-                <mj-column width="50%" mj-class="mobile-50">
-                    <mj-image src="../assets/boody/ico01.png" alt="1" padding="0" width="80px"/>
+                <mj-column width="50%">
+                    <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/ico01.png" alt="1" padding="0" width="80px"/>
                     <mj-text align="center" font-size="14px" color="#4A474A" line-height="22.5px" padding="4px 0 0">Free Shipping <br>over $60</mj-text>
                 </mj-column>
-                <mj-column width="50%" mj-class="mobile-50">
-                    <mj-image src="../assets/boody/ico02.png" alt="2" padding="0 " width="80px"/>
+                <mj-column width="50%">
+                    <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/ico02.png" alt="2" padding="0 " width="80px"/>
                     <mj-text align="center" font-size="14px" color="#4A474A" line-height="22.5px" padding="4px 0 0">30 day comfort<br>guarantee</mj-text>
                 </mj-column>
             </mj-group>
 
             <!-- Second group -->
             <mj-group>
-                <mj-column width="50%" mj-class="mobile-50">
-                    <mj-image src="../assets/boody/ico03.png" alt="3" padding="0" width="80px"/>
+                <mj-column width="50%">
+                    <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/ico03.png" alt="3" padding="0" width="80px"/>
                     <mj-text align="center" font-size="14px" color="#4A474A" line-height="22.5px" padding="4px 0 0">Here to help, <br>contact our team</mj-text>
                 </mj-column>
-                <mj-column width="50%" mj-class="mobile-50">
-                    <mj-image src="../assets/boody/ico04.png" alt="4" padding="0" width="80px"/>
+                <mj-column width="50%">
+                    <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/ico04.png" alt="4" padding="0" width="80px"/>
                     <mj-text align="center" font-size="14px" color="#4A474A" line-height="22.5px" padding="4px 0 0">Proud to be<br>B-Corp</mj-text>
                 </mj-column>
             </mj-group>
@@ -184,7 +196,7 @@
                     <mj-text font-size="14px" line-height="28px" padding="5px 0 0">
                         <a href="https://boody.com/"
                             style="color:#4A474A; text-decoration:underline;">
-                            Babyswear
+                            FAQ
                         </a>
                     </mj-text>
                 </mj-column>
