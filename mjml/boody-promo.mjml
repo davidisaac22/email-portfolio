@@ -31,12 +31,12 @@
             </mj-column>
         </mj-section>
         <mj-section padding="32px 24px">
-            <mj-column width="50%" padding="0">
-                <mj-image src="../assets/boody/img01.png" width="272px" padding="0" align="left"/>
-                <mj-image src="../assets/boody/img02.png" width="272px" padding="8px 0 0" align="left"/>
+            <mj-column width="50%" padding="0 6px 0 0">
+                <mj-image src="../assets/boody/img01.png" width="272px" padding="0" align="center"/>
+                <mj-image src="../assets/boody/img02.png" width="272px" padding="8px 0 0" align="center"/>
             </mj-column>
             <mj-column width="50%" padding="0">
-                <mj-image src="../assets/boody/img03.png" width="272px" padding="0" align="right"/>
+                <mj-image src="../assets/boody/img03.png" width="272px" padding="0" align="center"/>
             </mj-column>
         </mj-section>
         <mj-section padding="20px 0">
@@ -105,9 +105,120 @@
                 <mj-text align="center" font-size="18px" color="#FFFFFF" line-height="27px" padding="20px 0 0"><span style="font-weight:600;">Unisex Fit:</span> Designed to suit all body types.</mj-text>
             </mj-column>
         </mj-section>
-        <mj-section background-color="#dbcfbf" padding="60px 40px 0">
+        <mj-section background-url="https://github.com/davidisaac22/email-portfolio/blob/main/assets/boody/bg01.png?raw=true" background-size="cover" background-repeat="no-repeat" padding="60px 40px 360px 40px">
             <mj-column>
                 <mj-text align="center" font-size="18px" color="#494749" line-height="24.84px" padding="0">These garments are designed to be oversized, <br>if you would like a slimmer fit, we recommend <br>you size down.</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column padding="28px 0">
+                <mj-divider border-color="#494749" border-width="1px" padding="0 24px"/>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column width="50%">
+                <mj-image src="../assets/boody/img08.png" width="300px" padding="0" align="center"/>
+            </mj-column>
+            <mj-column width="50%" background-color="#454131" padding="24px">
+                <mj-text align="left" font-size="22px" font-weight="bold" color="#FFFFFF" line-height="27px" padding="24px 0 0">New for him <span style="font-weight:300;">|</span> Olive</mj-text>
+                <mj-text align="left" font-size="16px" color="#FFFFFF" line-height="24px" padding="16px 0 0">Meet Olive - the latest addition to our underwear collection, available in both boxers and briefs.</mj-text>
+                <mj-button href="https://www.boody.com.au/collections/underwear/products/olive-boxer-briefs" background-color="#FFFFFF" color="#494749" font-size="14px" padding="16px 0 14px" inner-padding="16px 48px" border-radius="60px" border="1px solid #494749" align="left" padding-top="24px">SHOP NOW</mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column padding="16px 0">
+                <mj-divider border-color="#494749" border-width="1px" padding="0 24px"/>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="16px">
+            <!-- First group -->
+            <mj-group>
+                <mj-column width="50%" mj-class="mobile-50">
+                    <mj-image src="../assets/boody/ico01.png" alt="1" padding="0" width="80px"/>
+                    <mj-text align="center" font-size="14px" color="#4A474A" line-height="22.5px" padding="4px 0 0">Free Shipping <br>over $60</mj-text>
+                </mj-column>
+                <mj-column width="50%" mj-class="mobile-50">
+                    <mj-image src="../assets/boody/ico02.png" alt="2" padding="0 " width="80px"/>
+                    <mj-text align="center" font-size="14px" color="#4A474A" line-height="22.5px" padding="4px 0 0">30 day comfort<br>guarantee</mj-text>
+                </mj-column>
+            </mj-group>
+
+            <!-- Second group -->
+            <mj-group>
+                <mj-column width="50%" mj-class="mobile-50">
+                    <mj-image src="../assets/boody/ico03.png" alt="3" padding="0" width="80px"/>
+                    <mj-text align="center" font-size="14px" color="#4A474A" line-height="22.5px" padding="4px 0 0">Here to help, <br>contact our team</mj-text>
+                </mj-column>
+                <mj-column width="50%" mj-class="mobile-50">
+                    <mj-image src="../assets/boody/ico04.png" alt="4" padding="0" width="80px"/>
+                    <mj-text align="center" font-size="14px" color="#4A474A" line-height="22.5px" padding="4px 0 0">Proud to be<br>B-Corp</mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column padding="16px 0">
+                <mj-divider border-color="#494749" border-width="1px" padding="0 24px"/>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="16px 24px">
+            <mj-group>
+                <mj-column width="50%" padding="0">
+                    <mj-text font-size="14px" line-height="28px" padding="0">
+                        <a href="https://boody.com/"
+                            style="color:#4A474A; text-decoration:underline; font-size:14px; line-height:28px;">
+                            Womenswear
+                        </a>
+                    </mj-text>
+                    <mj-text font-size="14px" line-height="28px" padding="5px 0 0">
+                        <a href="https://boody.com/"
+                            style="color:#4A474A; text-decoration:underline;">
+                            Menswear
+                        </a>
+                    </mj-text>
+                    <mj-text font-size="14px" line-height="28px" padding="5px 0 0">
+                        <a href="https://boody.com/"
+                            style="color:#4A474A; text-decoration:underline;">
+                            Babyswear
+                        </a>
+                    </mj-text>
+                    <mj-text font-size="14px" line-height="28px" padding="5px 0 0">
+                        <a href="https://boody.com/"
+                            style="color:#4A474A; text-decoration:underline;">
+                            Babyswear
+                        </a>
+                    </mj-text>
+                </mj-column>
+                <mj-column width="50%">
+                    <mj-text font-size="14px" line-height="28px" align="right" padding="0">
+                        <a href="https://boody.com/"
+                            style="color:#4A474A; text-decoration:underline;">
+                            About Boody
+                        </a>
+                    </mj-text>
+                    <mj-text font-size="14px" line-height="28px" align="right" padding="5px 0 0">
+                        <a href="https://boody.com/"
+                            style="color:#4A474A; text-decoration:underline;">
+                            Instagram
+                        </a>
+                    </mj-text>
+                    <mj-text font-size="14px" line-height="28px" padding="5px 0 0" align="right">
+                        <a href="https://boody.com/"
+                            style="color:#4A474A; text-decoration:underline;">
+                            Tiktok
+                        </a>
+                    </mj-text>
+                    <mj-text font-size="14px" line-height="28px" padding="5px 0 0" align="right">
+                        <a href="https://boody.com/"
+                            style="color:#4A474A; text-decoration:underline;">
+                            Facebook
+                        </a>
+                    </mj-text>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <mj-section padding="0">
+            <mj-column padding="16px 0">
+                <mj-divider border-color="#494749" border-width="1px" padding="0 24px"/>
             </mj-column>
         </mj-section>
     </mj-body>
