@@ -122,6 +122,43 @@
     }
 
   </style>
+  <style type="text/css">
+    .desktop-only {
+      display: block !important;
+      max-height: auto !important;
+      overflow: visible !important;
+    }
+
+    .mobile-only {
+      display: none !important;
+      max-height: 0 !important;
+      overflow: hidden !important;
+    }
+
+    @media only screen and (max-width:480px) {
+      .desktop-only {
+        max-height: 0 !important;
+        overflow: hidden !important;
+        display: none !important;
+      }
+
+      .mobile-only {
+        max-height: none !important;
+        overflow: visible !important;
+        display: block !important;
+      }
+
+      .text-center-sp div {
+        text-align: center !important;
+      }
+
+      .mobile-center {
+        margin: 0 auto !important;
+        float: none !important;
+      }
+    }
+
+  </style>
 </head>
 
 <body style="word-spacing:normal;background-color:#F8F9F4;">
@@ -165,8 +202,13 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
                     <tr>
-                      <td align="right" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                      <td align="right" class="desktop-only" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                         <div style="font-family:Inter, Arial, Helvetica, sans-serif;font-size:12px;font-weight:600;line-height:15px;text-align:right;color:#4A4749;">Make Yourself <br>Comfortable</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" class="mobile-only" style="font-size:0px;padding:16px 16px 0 0;word-break:break-word;">
+                        <div style="font-family:Inter, Arial, Helvetica, sans-serif;font-size:12px;font-weight:600;line-height:15px;text-align:left;color:#4A4749;">Make Yourself <br>Comfortable</div>
                       </td>
                     </tr>
                   </tbody>
@@ -207,8 +249,48 @@
         </tbody>
       </table>
     </div>
-    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="margin:0px auto;max-width:600px;">
+    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="desktop-only-outlook" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="desktop-only" style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:32px 24px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:552px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="vertical-align:top;padding:0;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                          <tbody>
+                            <tr>
+                              <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                  <tbody>
+                                    <tr>
+                                      <td style="width:552px;">
+                                        <img alt="" src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/img01.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="552" height="auto" />
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="mobile-only-outlook" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="mobile-only" style="margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
           <tr>
@@ -222,12 +304,12 @@
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <tr>
-                              <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
+                              <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                                   <tbody>
                                     <tr>
                                       <td style="width:272px;">
-                                        <img alt="" src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/refs/heads/main/assets/boody/img01.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="272" height="auto" />
+                                        <img alt="" src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/img02.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="272" height="auto" />
                                       </td>
                                     </tr>
                                   </tbody>
@@ -250,7 +332,7 @@
                         <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                           <tbody>
                             <tr>
-                              <td align="right" style="font-size:0px;padding:0;word-break:break-word;">
+                              <td align="center" style="font-size:0px;padding:8px 0 0;word-break:break-word;">
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                                   <tbody>
                                     <tr>
@@ -687,8 +769,8 @@
         </tbody>
       </table>
     </div>
-    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#454131" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><v:rect style="width:600px;" xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false"><v:fill origin="-0.5, -0.5" position="-0.5, -0.5" src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/img08.png" color="#454131" type="frame" size="50%,100%" /><v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0"><![endif]-->
-    <div style="background:#454131 url('https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/img08.png') left top / 50% 100% no-repeat;background-position:left top;background-repeat:no-repeat;background-size:50% 100%;margin:0px auto;max-width:600px;">
+    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="desktop-only-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#454131" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><v:rect style="width:600px;" xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false"><v:fill origin="-0.5, -0.5" position="-0.5, -0.5" src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/img08.png" color="#454131" type="frame" size="50%,100%" /><v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0"><![endif]-->
+    <div class="desktop-only" style="background:#454131 url('https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/img08.png') left top / 50% 100% no-repeat;background-position:left top;background-repeat:no-repeat;background-size:50% 100%;margin:0px auto;max-width:600px;">
       <div style="line-height:0;font-size:0;">
         <table align="center" background="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/img08.png" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#454131 url('https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/img08.png') left top / 50% 100% no-repeat;background-position:left top;background-repeat:no-repeat;background-size:50% 100%;width:100%;">
           <tbody>
@@ -755,7 +837,89 @@
         </table>
       </div>
     </div>
-    <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="mobile-only-outlook" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="mobile-only" style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                          <tbody>
+                            <tr>
+                              <td style="width:300px;">
+                                <img alt="Mobile Image" src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/img08.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="300" height="auto" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="mobile-only-outlook" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="mobile-only" style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                  <tbody>
+                    <tr>
+                      <td style="background-color:#454131;vertical-align:top;padding:24px;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                          <tbody>
+                            <tr>
+                              <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
+                                <div style="font-family:Inter, Arial, Helvetica, sans-serif;font-size:22px;font-weight:bold;line-height:27px;text-align:left;color:#FFFFFF;">New for him <span style="font-weight:300;">|</span> Olive</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" style="font-size:0px;padding:24px 0 0;word-break:break-word;">
+                                <div style="font-family:Inter, Arial, Helvetica, sans-serif;font-size:16px;line-height:24px;text-align:left;color:#FFFFFF;">Meet Olive - the latest addition to our underwear collection, available in both boxers and briefs.</div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" style="font-size:0px;padding:16px 0 14px;word-break:break-word;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                  <tbody>
+                                    <tr>
+                                      <td align="center" bgcolor="#FFFFFF" role="presentation" style="border:1px solid #494749;border-radius:60px;cursor:auto;mso-padding-alt:16px 48px;background:#FFFFFF;" valign="middle">
+                                        <a href="https://www.boody.com.au/collections/underwear/products/olive-boxer-briefs" style="display:inline-block;background:#FFFFFF;color:#494749;font-family:Inter, Arial, Helvetica, sans-serif;font-size:14px;font-weight:normal;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:16px 48px;mso-padding-alt:0px;border-radius:60px;" target="_blank"> SHOP NOW </a>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     <div style="margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
         <tbody>
