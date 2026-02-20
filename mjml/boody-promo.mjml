@@ -22,11 +22,11 @@
             </mj-column>
         </mj-section>
         <mj-section padding="32px 24px">
-            <mj-column width="50%" padding="0 6px 0 0">
-                <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/img01.png" width="272px" padding="0" align="center"/>
+            <mj-column width="50%" padding="0">
+                <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/refs/heads/main/assets/boody/img01.png" width="272px" padding="0" align="left"/>
             </mj-column>
             <mj-column width="50%" padding="0">
-                <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/img03.png" width="272px" padding="0" align="center"/>
+                <mj-image src="https://raw.githubusercontent.com/davidisaac22/email-portfolio/main/assets/boody/img03.png" width="272px" padding="0" align="right"/>
             </mj-column>
         </mj-section>
         <mj-section padding="20px 0">
